@@ -22,7 +22,7 @@ basic.forever(function () {
             . . # . .
             `)
     } else {
-        if (input.buttonIsPressed(Button.A)) {
+        if (input.isGesture(Gesture.TiltLeft)) {
             basic.showLeds(`
                 . . . . #
                 . . . # #
@@ -38,7 +38,7 @@ basic.forever(function () {
                 . . # . .
                 `)
         } else {
-            if (input.buttonIsPressed(Button.B)) {
+            if (input.isGesture(Gesture.TiltRight)) {
                 basic.showLeds(`
                     # . . . .
                     # # . . .

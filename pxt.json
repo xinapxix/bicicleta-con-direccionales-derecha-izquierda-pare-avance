@@ -1,5 +1,5 @@
 {
-    "name": "Bicicleta con direccionales derecha, izquierda, pare, avance",
+    "name": "Bicicleta con direccionales derecha, izquierda, pare, avance, avanzado",
     "description": "",
     "dependencies": {
         "core": "*",
